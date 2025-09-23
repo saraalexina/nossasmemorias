@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/solelua.png">
+    <link rel="apple-touch-icon" href="images/solelua.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#fac52b">
+    <title>Us💕</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+    <script>
+        // Verificação de login - redireciona para login se não estiver logado
+        if (!localStorage.getItem('loggedUser')) {
+            window.location.href = 'index.html';
+        }
+    </script>
+    
+    <!-- header -->
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <div style="position: absolute; top: 2rem; right: 2rem;">
+                    <button onclick="logout()" style="background: rgba(250, 197, 43, 0.9); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; cursor: pointer; font-family: 'Poppins', sans-serif; font-weight: 500; transition: all 0.3s ease;">
+                        <i class="fas fa-sign-out-alt"></i> Sair
+                    </button>
+                </div>
+                <h1>Eu Amo <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["você ❤️", "seu sorriso.", "estar com você!!"]'></span></h1>
+                <p id="contador-dias" style="margin-top: 10px; font-size: 2.2rem; color: #fff; font-family: inherit; font-weight: 500;"></p>
+
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <main>
+
+        <!-- carta -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "carta">
+                        <div class = "title">
+                            <h2>Carta aberta </h2>
+                        </div>
+                        <p class = "lead">Oi mozin 🥰.</p>
+                        <p class = "lead">Nosso primeiro Dia dos Namorados juntas — 12/06/2025. Não consegui preparar uma MEGA surpresa, 
+                            mas fiz esta página para registrar alguns momentos do nosso relacionamento e guardar nossas memórias. Espero que você goste!</p>
+                        <p class = "lead">u não sou a melhor com as palavras, mas quero que saiba de uma coisa: EU TE AMO MUITO e quero aproveitar cada dia ao seu lado.</p>
+                        <p class = "lead">VOCÊ É A MULHER MAIS LINDA DO MUNDO INTEIROOOOOOOOOO ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim da sessão carta-->
+
+        <!-- onde tudo começou -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <video src="images/primeiro dia.mp4" autoplay loop muted playsinline style="height: 480px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video>
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Onde tudo começou</h2>
+                        </div>
+                        <p class = "lead">Dia 01/02/2025 — o dia em que nos conhecemos 🥰.</p>
+                        <p class = "lead"> Quando eu bati o olho em você, lá na Sapucaí, só pensei: “NUUUUUUU, QUE GAROTA LINDA!” 😍.</p>
+                        <p class = "lead">Mas, como sou zero atitudes, não fiz nada… só fiquei segurando sua bolsa quietinha enquanto você sambava.
+                            A única ousadia que tive nesse dia foi perguntar ao Juan: “Qual o nome da sua amiga de rosa?”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim da sessão onde tudo começou-->
+
+        <!-- boomerang 1 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/VID-20250608-WA0184.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/VID-20250608-WA0299.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/video-1.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  fim de boomerang 1-->
+
+        <!-- 1 dia juntas -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/port-14.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>1° dia juntas</h2>
+                        </div>
+                        <p class = "lead">Dia 23/02/2025 — o dia em que FINALMENTE ficamos agarradinhas. 💕</p>
+                        <p class = "lead">Andamos de mãos dadas da Sapucaí até Manguinhos (sem soltar em nenhum momento kkkkk) e, nesse dia, também dormimos juntas pela primeira vez 🥰.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim daa sessão 1 dia juntas -->
+
+        <!-- Memorias 1 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>Nossas memorias 📸🥰</h2>
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-17.jpeg"></div>
+                        <div><img src = "images/port-2.jpeg"></div>
+                        <div><img src = "images/port-13.jpeg"></div>
+                        <div><img src = "images/port-10.jpeg"></div>
+                        <div><img src = "images/port-12.jpeg"></div>
+                        <div><img src = "images/port-7.jpeg"></div>
+                        <div><img src = "images/port-9.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!--  fim da sessão Memorias 1-->
+
+        <!-- 1 encontro -->
+        <section id = "1encontro" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/port-2.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>1° Encontro</h2>
+                        </div>
+                        <p class = "lead">Dia 08/03/2025 — NOSSO PRIMEIRO DATEEEEEEEE! 💖</p>
+                        <p class = "lead">Eu estava MUITO ansiosa, com medo de não saber o que 
+                            fazer ou até mesmo o que falar...Mas você conseguiu deixar tudo tão mais leve.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of 1 encontro -->
+
+        <!-- Bommerang 2 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/VID-20250608-WA0166.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/VID-20250608-WA0170.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/VID-20250608-WA0172.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 2 -->
+
+        <!-- Primeira praia juntas-->
+        <section id = "praia" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/primeirapraia.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>PRIMEIRA IDA A PRAIA JUNTAS</h2>
+                        </div>
+                        <p class = "lead">Logo após o nosso primeiro encontro, te chamei para dormir lá em casa para que pudéssemos ir à praia no dia seguinte. 
+                            (Confesso que fiquei com medo de você achar que eu estava te chamando só para transar... mas, na verdade, eu só queria muito passar 
+                            mais tempo ao seu lado. Então, mesmo nervosa, te convidei assim mesmo). Eu estava super ansiosa nesse dia também, afinal, era apenas
+                                a minha segunda saída como um casal kkkkk.</p>
+                                                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  fim Primeira praia juntas -->
+
+        <!-- Memorias 2 -->
+        <section id = "memoria2" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>mais📸🥰</h2>
+                      
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-8.jpeg"></div>
+                        <div><img src = "images/port-15.jpeg"></div>
+                        <div><img src = "images/port-11.jpeg"></div>
+                        <div><img src = "images/port-18.jpeg"></div>
+                        <div><img src = "images/port-23.jpg"></div>
+                        <div><img src = "images/port-22.jpg"></div> 
+                        <div><img src = "images/port-10.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- end of Memorias 2 -->
+
+        <!-- Feira da Gloria -->
+        <section id = "feira" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/feiradagloria.jpg">
+
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>FEIRA DA GLÓRIA</h2>
+                        </div>
+                        <p class = "lead">Primeiro dominguinho na Feira da Glória.</p>                              
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim feira da gloria-->  
+
+        <!-- boomerang 2 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/v1.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v5.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v3.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v4.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 2 -->
+
+        <!-- SORRISO -->
+        <section id = "feira" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/21.jpeg">
+
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>SEU SORRISO</h2>
+                        </div>
+                        <p class = "lead">Esta sessão é apenas para falar o QUÃO LINDO É O SEU SORRISO!.</p>                              
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim SORRISO --> 
+
+        <!-- Memorias 3 -->
+        <section id = "memoria2" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>mais📸🥰</h2>
+                       
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-25.jpg"></div>
+                        <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><img src = "images/port-29.jpg"></div>
+                        <div><img src = "images/port-44.jpg"></div>
+                        <div><img src = "images/port-23.jpg"></div>
+                        <div><img src = "images/port-42.jpg"></div> 
+                        <div><img src = "images/port-22.jpg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim Memorias 3 -->
+
+        <!--festa -->
+        <section id = "feira" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/festa.jpg">
+
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>FESTA SARRAÇÃO</h2>
+                        </div>
+                        <p class = "lead">Primeira vez que fomos na Sarração juntas ✨.</p>                              
+                        <p class = "lead">Você estava lindíssima (como sempre) e me encarava 
+                            de um jeito que eu ficava até fraca. Já estou doida por mais 
+                            festas incríveis como essa ao seu lado (e com meu tio, é claro kkk).</p>                                                           
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <!-- end festa -->
+
+
+        <!-- boomerang 3 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/v2.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v6.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v7.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v8.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 3 -->
+
+        <!-- pedido -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <video src="images/WhatsApp Video 2025-06-06 at 15.01.25.mp4" autoplay loop muted playsinline style="height: 480px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video>
+
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>pedido de namoro 💍</h2>
+                        </div>
+                        <p class = "lead">No dia 29/03/2025 eu não perdi tempo e já lancei logo o laço, só pra não correr o risco de você escapar 🤭.</p>
+                        <p class = "lead">E agora é pra sempre. Se um dia cogitar me largar... dorme que passa!</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim pedido -->
+
+        <!-- Memorias 4 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-16.jpeg"></div>
+                        <div><img src = "images/port-28.jpg"></div>
+                        <div><img src = "images/port-19.jpeg"></div>
+                        <div><img src = "images/port-4.jpeg"></div>
+                        <div><img src = "images/port-21.jpg"></div>
+                        <div><img src = "images/port-30.jpg"></div>
+                        <div><img src = "images/port-24.jpg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 4 -->
+
+        <!-- mega matte -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/primeiromegamatte.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Primiro Mega Matte juntas</h2>
+                        </div>
+                            <p class = "lead">No dia 03/04/2025 te levei ao MegaMatte pela primeira vez.</p>
+                            <p class = "lead">Você jurava que a mistura de açaí com pão de queijo era ruim… mas acabou se viciando kkkkk. E, desde então, isso virou o nosso hobbie de todo dia 29.</p>                       
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- fim mega matte -->
+
+        <!-- boomerang 4 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/v9.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v10.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v11.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v12.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 4 -->
+
+        <!-- primeiro show -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/primeiroshow.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Primiero Show</h2>
+                        </div>
+                        <p class = "lead">Nosso primeiro show — dia 20/04/2025: Jorge Aragão 🎶.</p>
+                        <p class = "lead">Você estava linda, como sempre! Apesar dos pesares, foi um dia divertido (até porque você estava comigo). 💕</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim primeiro show -->
+
+        <!-- Memorias 5 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.37.54.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.13.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.14.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.35.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.38.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.40.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.39.02.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 5 -->
+
+        <!-- 1 MES -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/megamatte1mes.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>1 mês de namoro.</h2>
+                        </div>
+                        <p class = "lead">29/04/2025 — Um mês de namoro 💖.</p>
+                        <p class = "lead">Fomos comemorar no MegaMatte, do eitinho que a gente gosta.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim 1 mes-->
+
+        <!-- boomerang 5 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/v13.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v14.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v15.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v16.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 5 -->
+
+        <!-- rapando meu cabelo -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/raspandocabelo18-05.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>O dia em que cortei meu cabelo ✂️.</h2>
+                        </div>
+                        <p class = "lead">Eu estava me sentindo horrível por ter decidido cortar tudo de última hora, mas você me ajudou a passar a máquina em tudo kkkkk.</p>
+                        <p class = "lead">Me arrependo muito de ter feito isso, mas agora é oficial: vou deixar crescer de novo!</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim rapando meu cabelo -->
+
+        <!-- Memorias 6 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/1.jpeg"></div>
+                        <div><img src = "images/2.jpeg"></div>
+                        <div><img src = "images/3.jpeg"></div>
+                        <div><img src = "images/8.jpeg"></div>
+                        <div><img src = "images/5.jpeg"></div>
+                        <div><img src = "images/6.jpeg"></div>
+                        <div><img src = "images/7.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 6 -->
+
+        <!-- Tirando suas tranças -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/08-06tirandocabelo.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Tirando suas tranças</h2>
+                        </div>
+                        <h2 class = "lead">💕</h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim Tirando suas tranças -->
+
+        <!-- boomerang 6 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/v17.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v18.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v19.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v20.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 6 -->
+
+        <!-- Sapagode -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/sapagode.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Sapagode 🎶</h2>
+                        </div>
+                        <p class = "lead">Quando saímos com o Juan e a Déborah para ir a um pagode de sapatão. Foi super divertido kkk.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim Sapagode -->
+
+        <!-- Memorias 7 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/4.jpeg"></div>
+                        <div><img src = "images/9.jpeg"></div>
+                        <div><img src = "images/10.jpeg"></div>
+                        <div><img src = "images/11.jpeg"></div>
+                        <div><img src = "images/12.jpeg"></div>
+                        <div><img src = "images/13.jpeg"></div>
+                        <div><img src = "images/14.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 7 -->
+
+        <!-- aniversario do miguel -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/aniversariodomiguel.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Aniversário do Miguel 🎂.</h2>
+                        </div>
+                        <p class = "lead">Eu já estava meio ansiosa de ir, porque tinham pessoas que eu não conhecia e afins. Mas foi divertido, apesar da torta salgada não ter sido uma das melhores kkkk.</p>
+                        <p class = "lead">O que eu mais amei foi ver que essa foto foi parar na parede de fotos da sua mãe. TEM UMA FOTO MINHA NA PAREDEEEEE! 🥳</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim aniversario do miguel -->
+
+        <!-- boomerang 7 -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><video src="images/v21.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v22.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v26.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><video src="images/v24.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 7 -->
+
+        <!-- aniversario da minha sogra -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/aniversariodaminhasogra.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Aniversário da minha sogra 🎉</h2>
+                        </div>
+                        <p class = "lead">Foi o primeiro aniversário da minha sogrinha em que estive presente.</p>
+                        <p class = "lead">Muita gritaria (como sempre kkk), mas eu amo ver a sua família toda unida. Apesar dos pesares, vocês sempre conseguem se divertir juntos. 💕</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim Aniversário da minha sogra -->
+
+        <!-- Memorias 8 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/15.jpeg"></div>
+                        <div><img src = "images/19.jpeg"></div>
+                        <div><img src = "images/17.jpeg"></div>
+                        <div><img src = "images/18.jpeg"></div>
+                        <div><img src = "images/16.jpeg"></div>
+                        <div><img src = "images/20.jpeg"></div>
+                        <div><img src = "images/sorriso.jpg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 8 -->
+
+        <!-- AMOR-->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <video src="images/NOOOOOS.mp4" autoplay loop muted playsinline style="height: 480px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video>
+
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>EU TE AMO MUITO ❤️</h2>
+                        </div>
+                        <p class = "lead">Obrigada por ter paciência comigo. Eu sei que não sou tão fácil de lidar assim, mas sou muito grata por você estar ao meu lado.</p>
+                        <p class = "lead">Estou ansiosa para criarmos muitas outras memórias juntas. ✨</p>                    
+                    </div>
+                </div>
+
+                <!-- Sistema de comentários para Amor -->
+                <div class="section-comments" data-section="amor">
+                    <h3><i class="fas fa-heart"></i> Comente sobre o nós</h3>
+                    <div class="comment-form">
+                        <textarea placeholder="Escreva uma mensagem especial de amor..."></textarea>
+                        <button onclick="addComment('amor')">
+                            <i class="fas fa-paper-plane"></i> Enviar
+                        </button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+        <!-- fim AMOR -->
+
+        
+    </main>
+    <!-- end of main content -->
+
+    <!-- Sistema de comentários JavaScript -->
+    <script>
+        // Sistema de comentários por seção
+        function addComment(sectionId) {
+            const section = document.querySelector(`[data-section="${sectionId}"]`);
+            const textarea = section.querySelector('textarea');
+            const commentsList = section.querySelector('.comments-list');
+            const noComments = section.querySelector('.no-comments');
+            
+            const commentText = textarea.value.trim();
+            if (!commentText) {
+                alert('Por favor, escreva um comentário antes de enviar! 💕');
+                return;
+            }
+            
+            // Remover mensagem "sem comentários" se existir
+            if (noComments) {
+                noComments.remove();
+            }
+            
+            // Criar elemento do comentário
+            const commentItem = document.createElement('div');
+            commentItem.className = 'comment-item';
+            
+            const now = new Date();
+            const timeString = now.toLocaleString('pt-BR', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            
+            const loggedUser = localStorage.getItem('loggedUser');
+            
+            commentItem.innerHTML = `
+                <div class="comment-header">
+                    <span class="comment-author">${loggedUser} 💕</span>
+                    <span class="comment-time">${timeString}</span>
+                </div>
+                <div class="comment-text">${commentText}</div>
+            `;
+            
+            // Adicionar ao início da lista
+            commentsList.insertBefore(commentItem, commentsList.firstChild);
+            
+            // Limpar textarea
+            textarea.value = '';
+            
+            // Salvar no localStorage
+            saveComment(sectionId, {
+                author: loggedUser,
+                text: commentText,
+                time: now.toISOString()
+            });
+            
+            // Mostrar notificação
+            mostrarNotificacao('Comentário adicionado com sucesso! 💕');
+        }
+        
+        function saveComment(sectionId, comment) {
+            const key = `comments_${sectionId}`;
+            let comments = JSON.parse(localStorage.getItem(key) || '[]');
+            comments.unshift(comment);
+            // Manter apenas os últimos 50 comentários por seção
+            if (comments.length > 50) {
+                comments = comments.slice(0, 50);
+            }
+            localStorage.setItem(key, JSON.stringify(comments));
+        }
+        
+        function loadComments() {
+            const sections = document.querySelectorAll('[data-section]');
+            sections.forEach(section => {
+                const sectionId = section.getAttribute('data-section');
+                const key = `comments_${sectionId}`;
+                const comments = JSON.parse(localStorage.getItem(key) || '[]');
+                const commentsList = section.querySelector('.comments-list');
+                const noComments = section.querySelector('.no-comments');
+                
+                if (comments.length > 0 && noComments) {
+                    noComments.remove();
+                }
+                
+                comments.forEach(comment => {
+                    const commentItem = document.createElement('div');
+                    commentItem.className = 'comment-item';
+                    
+                    const date = new Date(comment.time);
+                    const timeString = date.toLocaleString('pt-BR', {
+                        day: '2-digit',
+                        month: '2-digit',
+                        year: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+                    
+                    commentItem.innerHTML = `
+                        <div class="comment-header">
+                            <span class="comment-author">${comment.author} 💕</span>
+                            <span class="comment-time">${timeString}</span>
+                        </div>
+                        <div class="comment-text">${comment.text}</div>
+                    `;
+                    
+                    commentsList.appendChild(commentItem);
+                });
+            });
+        }
+        
+        // Permitir envio com Enter (Ctrl+Enter)
+        document.addEventListener('keydown', function(e) {
+            if (e.target.tagName === 'TEXTAREA' && e.ctrlKey && e.key === 'Enter') {
+                const section = e.target.closest('[data-section]');
+                const sectionId = section.getAttribute('data-section');
+                addComment(sectionId);
+            }
+        });
+    </script>
+
+    <!-- typewriting js -->
+     <script class = "lead">
+      function atualizarContagem() {
+        const inicio = new Date("2025-02-01T00:00:00");
+        const agora = new Date();
+
+        const diff = agora - inicio;
+
+        const dias = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const horas = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutos = Math.floor((diff / (1000 * 60)) % 60);
+        const segundos = Math.floor((diff / 1000) % 60);
+
+        const texto = `<span style="font-size: 3rem; font-weight: 300;  line-height: 1.8;">Me apaixonando há: <strong>${dias}</strong> dias, <strong>${horas}</strong> horas, <strong>${minutos}</strong> minutos e <strong>${segundos}</strong> segundos 💖</span>`;
+
+        
+        document.getElementById("contador-dias").innerHTML = texto;
+      }
+
+      setInterval(atualizarContagem, 1000);
+      atualizarContagem(); // executa logo ao carregar
+
+        // Lista de mensagens
+        const mensagens = [
+        "Você é a minha felicidade diária! 😍",
+        "Te amo mais do que a medida 🙈❤️",
+        "Que seu dia seja tão lindo quanto o seu sorriso 🌙🌸",
+        "Meu mundo é mais colorido com você 🌈",
+        ];
+
+        // Função para mostrar notificação estilizada
+        function mostrarNotificacao(mensagem) {
+        const notif = document.createElement("div");
+        notif.classList.add("notificacao");
+        notif.innerHTML = mensagem;
+
+        document.body.appendChild(notif);
+
+        // Mostrar com animação
+        setTimeout(() => {
+            notif.classList.add("show");
+        }, 100);
+
+        // Esconder e remover após 5 segundos
+        setTimeout(() => {
+            notif.classList.remove("show");
+            setTimeout(() => {
+            notif.remove();
+            }, 500);
+        }, 5000);
+        }
+
+        // Ao abrir a página, mostra mensagem do dia
+        window.onload = () => {
+        const hoje = new Date().getDay(); // 0 = Domingo, 1 = Segunda...
+        const mensagemHoje = mensagens[hoje % mensagens.length];
+        mostrarNotificacao(mensagemHoje);
+        };
+
+        // Função de logout
+        function logout() {
+            if (confirm('Tem certeza que deseja sair? 😢')) {
+                localStorage.removeItem('loggedUser');
+                window.location.href = 'index.html';
+            }
+        }
+
+    </script>
+    <script src = "typewriting-master/typewriting.js"></script>
+</body>
+</html>

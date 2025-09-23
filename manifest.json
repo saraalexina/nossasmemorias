@@ -1,0 +1,20 @@
+{
+  "name": "Us 💕",
+  "short_name": "Us",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fac52b",
+  "icons": [
+    {
+      "src": "images/solelua.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/solelua.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

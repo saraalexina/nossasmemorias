@@ -1,0 +1,1045 @@
+esta é a resposta do w3c sobre o meu codigo. analise estas informações e com base nela e aplique as indicações no meu codigo html/css/.JSON que vou deixar logo a baixo das informações.
+Informação : A barra final em elementos vazios não tem efeito e interage mal com valores de atributos sem aspas .
+
+Da linha 13 , coluna 5 ; até a linha 13 , coluna 277
+
+e -->↩    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all…DwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />↩    <
+
+Erro : ID duplicado about.
+
+Da linha 51 , coluna 9 ; até a linha 51 , coluna 51
+
+>↩        <section id = "about" class = "about py-7">↩     
+
+Aviso : A primeira ocorrência de ID aboutfoi aqui.
+
+Da linha 33 , coluna 9 ; até a linha 33 , coluna 51
+
+>↩        <section id = "about" class = "about py-7">↩     
+
+Erro : Valor inválido images/primeiro dia.mp4para atributo srcno elemento video: Caractere ilegal no segmento de caminho: espaço não permitido.
+
+Da linha 55 , coluna 25 ; até a linha 55 , coluna 210
+
+          <video src="images/primeiro dia.mp4" autoplay loop muted playsinline style="height: 480px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></vide
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 77 , coluna 81
+
+608-WA0184.mp4"autoplay loop m
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 78 , coluna 81
+
+608-WA0290.mp4"autoplay loop m
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 79 , coluna 81
+
+608-WA0299.mp4"autoplay loop m
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 80 , coluna 69
+
+es/video-1.mp4"autoplay loop m
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 95 , coluna 30 ; até a linha 95 , coluna 62
+
+     <div><img src = "images/port-17.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 96 , coluna 30 ; até a linha 96 , coluna 61
+
+     <div><img src = "images/port-2.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 97 , coluna 30 ; até a linha 97 , coluna 62
+
+     <div><img src = "images/port-13.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 98 , coluna 30 ; até a linha 98 , coluna 62
+
+     <div><img src = "images/port-10.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 99 , coluna 30 ; até a linha 99 , coluna 62
+
+     <div><img src = "images/port-12.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 100 , coluna 30 ; até a linha 100 , coluna 61
+
+     <div><img src = "images/port-7.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 101 , coluna 30 ; até a linha 101 , coluna 61
+
+     <div><img src = "images/port-9.jpeg"></div>
+
+Erro : Tag final sectionvista, mas havia elementos abertos.
+
+Da linha 105 , coluna 9 ; até a linha 105 , coluna 18
+
+>↩        </section>↩     
+
+Erro : Elemento não fechado div.
+
+Da linha 88 , coluna 13 ; até a linha 88 , coluna 37
+
+          <div class = "container">↩     
+
+Erro : ID duplicado about.
+
+Da linha 109 , coluna 9 ; até a linha 109 , coluna 51
+
+>↩        <section id = "about" class = "about py-7">↩     
+
+Aviso : A primeira ocorrência de ID aboutfoi aqui.
+
+Da linha 33 , coluna 9 ; até a linha 33 , coluna 51
+
+>↩        <section id = "about" class = "about py-7">↩     
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 113 , coluna 25 ; até a linha 113 , coluna 55
+
+          <img src="images/port-14.jpeg">↩     
+
+Erro : ID duplicado insta.
+
+Da linha 128 , coluna 17 ; até a linha 128 , coluna 53
+
+          <section id = "insta" class = "py-7">↩     
+
+Aviso : A primeira ocorrência de ID instafoi aqui.
+
+Da linha 70 , coluna 17 ; até a linha 70 , coluna 53
+
+          <section id = "insta" class = "py-7">↩     
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 135 , coluna 81
+
+608-WA0290.mp4"autoplay loop m
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 136 , coluna 81
+
+608-WA0166.mp4"autoplay loop m
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 137 , coluna 81
+
+608-WA0170.mp4"autoplay loop m
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 138 , coluna 81
+
+608-WA0172.mp4"autoplay loop m
+
+Erro : ID duplicado portfolio.
+
+Da linha 145 , coluna 9 ; até a linha 145 , coluna 56
+
+>↩        <section id = "portfolio" class = "vh-100 py-7">↩     
+
+Aviso : A primeira ocorrência de ID portfoliofoi aqui.
+
+Da linha 87 , coluna 9 ; até a linha 87 , coluna 56
+
+>↩        <section id = "portfolio" class = "vh-100 py-7">↩     
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 154 , coluna 30 ; até a linha 154 , coluna 62
+
+     <div><img src = "images/port-16.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 155 , coluna 30 ; até a linha 155 , coluna 61
+
+     <div><img src = "images/port-28.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 156 , coluna 30 ; até a linha 156 , coluna 62
+
+     <div><img src = "images/port-19.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 157 , coluna 30 ; até a linha 157 , coluna 61
+
+     <div><img src = "images/port-4.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 158 , coluna 30 ; até a linha 158 , coluna 61
+
+     <div><img src = "images/port-21.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 159 , coluna 30 ; até a linha 159 , coluna 61
+
+     <div><img src = "images/port-30.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 160 , coluna 30 ; até a linha 160 , coluna 61
+
+     <div><img src = "images/port-24.jpg"></div>
+
+Erro : Tag final sectionvista, mas havia elementos abertos.
+
+Da linha 164 , coluna 9 ; até a linha 164 , coluna 18
+
+>↩        </section>↩     
+
+Erro : Elemento não fechado div.
+
+Da linha 146 , coluna 13 ; até a linha 146 , coluna 37
+
+          <div class = "container">↩     
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 171 , coluna 33 ; até a linha 171 , coluna 62
+
+          <img src="images/port-2.jpeg">↩     
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 195 , coluna 30 ; até a linha 195 , coluna 61
+
+     <div><img src = "images/port-8.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 196 , coluna 30 ; até a linha 196 , coluna 62
+
+     <div><img src = "images/port-15.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 197 , coluna 30 ; até a linha 197 , coluna 62
+
+     <div><img src = "images/port-11.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 198 , coluna 30 ; até a linha 198 , coluna 62
+
+     <div><img src = "images/port-18.jpeg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 199 , coluna 30 ; até a linha 199 , coluna 61
+
+     <div><img src = "images/port-23.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 200 , coluna 30 ; até a linha 200 , coluna 61
+
+     <div><img src = "images/port-22.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 201 , coluna 30 ; até a linha 201 , coluna 62
+
+     <div><img src = "images/port-10.jpeg"></div>
+
+Erro : Tag final sectionvista, mas havia elementos abertos.
+
+Da linha 205 , coluna 9 ; até a linha 205 , coluna 18
+
+>↩        </section>↩     
+
+Erro : Elemento não fechado div.
+
+Da linha 187 , coluna 13 ; até a linha 187 , coluna 37
+
+          <div class = "container">↩     
+
+Erro : ID duplicado 1encontro.
+
+Da linha 208 , coluna 17 ; até a linha 208 , coluna 63
+
+          <section id = "1encontro" class = "about py-7">↩     
+
+Aviso : A primeira ocorrência de ID 1encontrofoi aqui.
+
+Da linha 167 , coluna 17 ; até a linha 167 , coluna 63
+
+          <section id = "1encontro" class = "about py-7">↩     
+
+Erro : Valor inválido images/WhatsApp Video 2025-06-06 at 15.01.25.mp4para atributo srcno elemento video: Caractere ilegal no segmento de caminho: espaço não permitido.
+
+Da linha 212 , coluna 33 ; até a linha 212 , coluna 243
+
+          <video src="images/WhatsApp Video 2025-06-06 at 15.01.25.mp4" autoplay loop muted playsinline style=…0px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></vide
+
+Erro : ID duplicado memoria2.
+
+Da linha 228 , coluna 9 ; até a linha 228 , coluna 55
+
+>↩        <section id = "memoria2" class = "vh-100 py-7">↩     
+
+Aviso : A primeira ocorrência de ID memoria2foi aqui.
+
+Da linha 186 , coluna 9 ; até a linha 186 , coluna 55
+
+>↩        <section id = "memoria2" class = "vh-100 py-7">↩     
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 237 , coluna 30 ; até a linha 237 , coluna 61
+
+     <div><img src = "images/port-25.jpg"></div>
+
+Erro : Não há espaço entre os atributos.
+
+Na linha 238 , coluna 73
+
+608-WA0290.mp4"autoplay loop m
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 239 , coluna 30 ; até a linha 239 , coluna 61
+
+     <div><img src = "images/port-29.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 240 , coluna 30 ; até a linha 240 , coluna 61
+
+     <div><img src = "images/port-44.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 241 , coluna 30 ; até a linha 241 , coluna 61
+
+     <div><img src = "images/port-23.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 242 , coluna 30 ; até a linha 242 , coluna 61
+
+     <div><img src = "images/port-42.jpg"></div>
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 243 , coluna 30 ; até a linha 243 , coluna 61
+
+     <div><img src = "images/port-22.jpg"></div>
+
+Erro : Tag final sectionvista, mas havia elementos abertos.
+
+Da linha 247 , coluna 9 ; até a linha 247 , coluna 18
+
+>↩        </section>↩     
+
+Erro : Elemento não fechado div.
+
+Da linha 229 , coluna 13 ; até a linha 229 , coluna 37
+
+          <div class = "container">↩     
+
+Erro : Um imgelemento deve ter um altatributo, exceto sob certas condições. Para obter mais detalhes, consulte as orientações sobre como fornecer alternativas de texto para imagens .
+
+Da linha 254 , coluna 33 ; até a linha 254 , coluna 63
+
+          <img src="images/foto-63.jpeg">↩    
+
+
+CODIGO HTML:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/solelua.png">
+    <link rel="apple-touch-icon" href="images/solelua.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#fac52b">
+    <title>Us💕</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+<body>
+    
+    <!-- header -->
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>Eu Amo <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["você ❤️", "seu sorriso.", "estar com você!!"]'></span></h1>
+                <p id="contador-dias" style="margin-top: 10px; font-size: 2.2rem; color: #fff; font-family: inherit; font-weight: 500;"></p>
+
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <main>
+        <!-- carta -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Carta aberta </h2>
+                        </div>
+                        <p class = "lead">Oi mozin 🥰.</p>
+                        <p class = "lead">Nosso primeiro dia dos namorados juntas 12/06/2025...não consegui elaborar uma MEGA surpresa, 
+                            mas fiz esta pagina para registar alguns mometos do nosso relacionamento e guardar nossas memorias. Espero que goste!</p>
+                        <p class = "lead">Não sou muito boa com as palavras, mas quero que saiba que: EU AMO MUITO VOCÊ, e quero aproveitar muito cada dia a seu lado.</p>
+                        <p class = "lead">VOCÊ É A MULHER MAIS LINDA DO MUNDO INTEIROOOOOOOOOO. ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of carta-->
+        <!-- onde tudo começou -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <video src="images/primeiro dia.mp4" autoplay loop muted playsinline style="height: 480px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video>
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Onde tudo começou</h2>
+                        </div>
+                        <p class = "lead">Dia 01/02/2025 dia em que nos conhecemos🥰.</p>
+                        <p class = "lead"> Quando eu bati o olho em você na sapucai eu pensei "NUUUUUUU QUE GAROTA LINDA!" mas como sou 0 atitudes não fiz nada, e segurei sua bolsa caladinha para você sambar.</p>
+                        <p class = "lead">A unica atitude que tive nesse dia foi perguntar ao Juan "Qual o nome da sua amiga de rosa?"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of onde tudo começou-->
+        <!-- instagram section -->
+                <section id = "insta" class = "py-7">
+                    <div class = "container">
+                        <div class = "insta-content">
+                            <div class = "title">
+                                <h2>BOOMS</h2>
+                            </div>
+                            <div class = "insta-grid grid">
+                                <div><video src="images/VID-20250608-WA0184.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                                <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                                <div><video src="images/VID-20250608-WA0299.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                                <div><video src="images/video-1.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-- end of instagram section -->
+        <!-- Memorias -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>Nossas memorias 📸🥰</h2>
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-17.jpeg"></div>
+                        <div><img src = "images/port-2.jpeg"></div>
+                        <div><img src = "images/port-13.jpeg"></div>
+                        <div><img src = "images/port-10.jpeg"></div>
+                        <div><img src = "images/port-12.jpeg"></div>
+                        <div><img src = "images/port-7.jpeg"></div>
+                        <div><img src = "images/port-9.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- end of Memorias-->
+
+        <!-- 1 dia juntas -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/port-14.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>1° dia juntas</h2>
+                        </div>
+                        <p class = "lead">Dia 23/02/2025 dia em que FINALMENTE ficamos agarradinhas.</p>
+                        <p class = "lead">Ficamos de mãos dadas da Sapucai ate o Manguinhos (SEM SOLTAR kkkkkk) E dormimos juntas pela primeira vez🥰.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of 1 dia juntas -->
+        <!-- instagram section -->
+                <section id = "insta" class = "py-7">
+                    <div class = "container">
+                        <div class = "insta-content">
+                            <div class = "title">
+                                <h2>BOOMS</h2>
+                            </div>
+                            <div class = "insta-grid grid">
+                                <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                                <div><video src="images/VID-20250608-WA0166.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                                <div><video src="images/VID-20250608-WA0170.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                                <div><video src="images/VID-20250608-WA0172.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-- end of instagram section -->
+        <!-- Memorias 1 -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-16.jpeg"></div>
+                        <div><img src = "images/port-28.jpg"></div>
+                        <div><img src = "images/port-19.jpeg"></div>
+                        <div><img src = "images/port-4.jpeg"></div>
+                        <div><img src = "images/port-21.jpg"></div>
+                        <div><img src = "images/port-30.jpg"></div>
+                        <div><img src = "images/port-24.jpg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- end of Memorias 1 -->
+        <!-- 1 encontro -->
+                <section id = "1encontro" class = "about py-7">
+                    <div class = "container">
+                        <div class = "about-content grid">
+                            <div class = "about-left">
+                                <img src="images/port-2.jpeg">
+                            </div>
+                            <div class = "about-right">
+                                <div class = "title">
+                                    <h2>1° Encontro</h2>
+                                </div>
+                                <p class = "lead">Dia 08/03/2025 NOSSO PRIMEIRO DATEEEEEEEE. Fiquei MUITO ansiosa, com medo de não saber o que fazer, não saber o que falar...</p>
+                                <p class = "lead">Mas você conseguiu deixar tudo mais leve  </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-- end of 1 encontro -->
+        <!-- Memorias 2 -->
+        <section id = "memoria2" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>mais📸🥰</h2>
+                      
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-8.jpeg"></div>
+                        <div><img src = "images/port-15.jpeg"></div>
+                        <div><img src = "images/port-11.jpeg"></div>
+                        <div><img src = "images/port-18.jpeg"></div>
+                        <div><img src = "images/port-23.jpg"></div>
+                        <div><img src = "images/port-22.jpg"></div> 
+                        <div><img src = "images/port-10.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- end of Memorias 2 -->
+         <!-- pedido -->
+                <section id = "1encontro" class = "about py-7">
+                    <div class = "container">
+                        <div class = "about-content grid">
+                            <div class = "about-left">
+                                <video src="images/WhatsApp Video 2025-06-06 at 15.01.25.mp4" autoplay loop muted playsinline style="height: 480px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video>
+
+                            </div>
+                            <div class = "about-right">
+                                <div class = "title">
+                                    <h2>pedido de namoro 💍</h2>
+                                </div>
+                                <p class = "lead">Dia 29/03/2025 lancei logo o laço, para não correr o risco de você escapar 🤭 </p>
+                                <p class = "lead">E agora é pra sempre. Se tiver cogitando me largar...dorme que passa!</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-- end of pedido -->
+        <!-- Memorias 3 -->
+        <section id = "memoria2" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>mais📸🥰</h2>
+                       
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-25.jpg"></div>
+                        <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline style="height: 300px; width: 100%; object-fit: cover; margin-bottom: 4rem; overflow: hidden; border-radius: 0.5rem;"></video></div>
+                        <div><img src = "images/port-29.jpg"></div>
+                        <div><img src = "images/port-44.jpg"></div>
+                        <div><img src = "images/port-23.jpg"></div>
+                        <div><img src = "images/port-42.jpg"></div> 
+                        <div><img src = "images/port-22.jpg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- end of Memorias 3 -->
+        <!-- CONTINUAÇÃO-->
+                <section id = "CONTINUAÇÃO" class = "about py-7">
+                    <div class = "container">
+                        <div class = "about-content grid">
+                            <div class = "about-left">
+                                <img src="images/foto-63.jpeg">
+                            </div>
+                            <div class = "about-right">
+                                <div class = "title">
+                                    <h2>Continuando...</h2>
+                                </div>
+                                <p class = "lead">Depois do pedido de namoro (na verdade desde o primeiro encontro kkk)todo os dias com você é uma memoria a ser guardada.</p>
+                                <p class = "lead">Aguarde cenas dos proximos capitulos!</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        <!-- end of CONTINUAÇÃO -->
+    </main>
+    <!-- end of main content -->
+    <!-- typewriting js -->
+     <script class = "lead">
+      function atualizarContagem() {
+        const inicio = new Date("2025-02-01T00:00:00");
+        const agora = new Date();
+
+        const diff = agora - inicio;
+
+        const dias = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const horas = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutos = Math.floor((diff / (1000 * 60)) % 60);
+        const segundos = Math.floor((diff / 1000) % 60);
+
+        const texto = `<span style="font-size: 3rem; font-weight: 300;  line-height: 1.8;">Me apaixonando há: <strong>${dias}</strong> dias, <strong>${horas}</strong> horas, <strong>${minutos}</strong> minutos e <strong>${segundos}</strong> segundos 💖</span>`;
+
+        
+        document.getElementById("contador-dias").innerHTML = texto;
+      }
+
+      setInterval(atualizarContagem, 1000);
+      atualizarContagem(); // executa logo ao carregar
+
+        // Lista de mensagens
+        const mensagens = [
+        "Você é a minha felicidade diária! 😍",
+        "Te amo mais do que a medida 🙈❤️",
+        "Que seu dia seja tão lindo quanto o seu sorriso 🌙🌸",
+        "Meu mundo é mais colorido com você 🌈",
+        ];
+
+        // Função para mostrar notificação estilizada
+        function mostrarNotificacao(mensagem) {
+        const notif = document.createElement("div");
+        notif.classList.add("notificacao");
+        notif.innerHTML = mensagem;
+
+        document.body.appendChild(notif);
+
+        // Mostrar com animação
+        setTimeout(() => {
+            notif.classList.add("show");
+        }, 100);
+
+        // Esconder e remover após 5 segundos
+        setTimeout(() => {
+            notif.classList.remove("show");
+            setTimeout(() => {
+            notif.remove();
+            }, 500);
+        }, 5000);
+        }
+
+        // Ao abrir a página, mostra mensagem do dia
+        window.onload = () => {
+        const hoje = new Date().getDay(); // 0 = Domingo, 1 = Segunda...
+        const mensagemHoje = mensagens[hoje % mensagens.length];
+        mostrarNotificacao(mensagemHoje);
+        };
+
+    </script>
+    <script src = "typewriting-master/typewriting.js"></script>
+</body>
+</html>
+
+CODIGO CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --transition: all 300ms ease-in-out;
+    --dark-color: #fac52b;
+    --light-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+button, .btn{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.vh-100{
+    min-height: 100vh;
+}
+h1, h2, h3{
+    margin-top: 0;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    color: var(--dark-color);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.py-7{
+    padding: 7rem 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+.lead{
+    opacity: 0.8;
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* header */
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/capa.jpg') center/cover no-repeat fixed;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#header .container{
+    width: 100%;
+}
+.header-content{
+    padding-bottom: 4rem;
+}
+.header-content h1{
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--light-color);
+}
+.header-content h3{
+    color: var(--light-color);
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+/* about */
+.about-left{
+    margin-bottom: 4rem;
+    height: 480px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+/* button down and title -reusable */
+.btn-down{
+    font-size: 3rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: var(--transition);
+}
+.btn-down:hover{
+    opacity: 0.8;
+    transform: translateY(5px);
+}
+.btn-down-white{
+    color: var(--light-color);
+}
+.title{
+    margin-bottom: 5rem;
+}
+.title h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+}
+.title h2::after{
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color: var(--dark-color);
+}
+
+#insta{
+    background-color: #fac52b;
+}
+#insta .title h2{
+    color: var(--light-color);
+}
+#insta .title h2::after{
+    background-color: var(--light-color);
+}
+.insta-grid > div{
+    height: 350px;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.insta-grid > div img{
+    height: 100%;
+    object-fit: cover;
+}
+.insta-grid > div:hover{
+    transform: scale(0.9);
+}
+
+/* footer */
+#footer{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content h3{
+    color: var(--light-color);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.footer-content ul{
+    flex-direction: column;
+}
+.footer-content ul li a{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+.footer-content ul li a:hover{
+    opacity: 0.7;
+}
+.footer-content ul li{
+    margin: .5rem 1rem;
+}
+.footer-content > div:first-child{
+    margin-bottom: 3rem;
+}
+.footer-content > div:first-child div{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 5rem auto;
+    border-radius: 50%;
+}
+
+
+/* Media Queries */
+
+@media(min-width: 450px){
+    .work-bottom{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        row-gap: 0;
+    }
+}
+@media(min-width: 576px){
+    .title h2{
+        font-size: 4rem;
+    }
+    .work-bottom{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portfolio-grid > div{
+        height: 300px;
+        overflow: hidden;
+    }
+    .portfolio-grid > div img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-left form .form-control{
+        max-width: 500px;
+    }
+    .footer-content ul{
+        flex-direction: row;
+    }
+
+}
+
+@media(min-width: 768px){
+    .header-content h1{
+        font-size: 7rem;
+    }
+    .about-content, .work-top{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 6rem;
+        row-gap: 0;
+    }
+    .about-left{
+        margin-bottom: 0;
+    }
+    .contact-content{
+        flex-direction: row;
+    }
+    .contact-right{
+        padding-left: 3rem;
+        width: 50%;
+    }
+    .contact-left{
+        width: 50%;
+    }
+    .insta-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 992px){
+    .insta-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .insta-grid > div{
+        height: 300px;
+    }
+}
+
+@media(min-width: 1200px){
+    .portfolio-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .portfolio-grid > div:nth-child(2){
+        grid-column: 2 / 4;
+    }
+    .portfolio-grid > div:nth-child(6){
+        grid-column: 1 / 3;
+    }
+}
+
+/* Caixa da notificação */
+.notificacao {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #ff4f81; /* rosa fofo */
+  color: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  font-size: 2.1rem;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 9999;
+}
+
+/* Quando visível */
+.notificacao.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+CODIGO .json :
+
+{
+  "name": "Us 💕",
+  "short_name": "Us",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fac52b",
+  "icons": [
+    {
+      "src": "images/solelua.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/solelua.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

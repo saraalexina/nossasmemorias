@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/solelua.png">
+  <link rel="apple-touch-icon" href="images/solelua.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#fac52b">
+  <title>Login - Us💕</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .login-page {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/capa.jpg') center/cover no-repeat fixed;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      max-width: 400px;
+      width: 100%;
+      padding: 0 2rem;
+    }
+
+    .login-logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fac52b;
+      box-shadow: 0 8px 32px rgba(250, 197, 43, 0.3);
+    }
+
+    .login-box {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 4rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      text-align: center;
+      border: 2px solid rgba(250, 197, 43, 0.3);
+    }
+
+    .login-box h2 {
+      color: #fac52b;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      font-size: 1.6rem;
+      font-family: 'Poppins', sans-serif;
+      transition: all 0.3s ease;
+      background: rgba(255, 255, 255, 0.9);
+      box-sizing: border-box;
+    }
+
+    .login-box input:focus {
+      outline: none;
+      border-color: #fac52b;
+      box-shadow: 0 0 0 3px rgba(250, 197, 43, 0.2);
+      background: white;
+    }
+
+    .login-box input::placeholder {
+      color: #999;
+      font-weight: 300;
+    }
+
+    .login-box button {
+      background: linear-gradient(135deg, #fac52b, #f0b90b);
+      border: none;
+      padding: 1.5rem 3rem;
+      color: white;
+      font-weight: 600;
+      font-size: 1.6rem;
+      border-radius: 12px;
+      cursor: pointer;
+      width: 100%;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 1rem;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .login-box button:hover {
+      background: linear-gradient(135deg, #f0b90b, #e6a800);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(250, 197, 43, 0.4);
+    }
+
+    .login-box button:active {
+      transform: translateY(0);
+    }
+
+    .error {
+      color: #ff4757;
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      background: rgba(255, 71, 87, 0.1);
+      padding: 1rem;
+      border-radius: 8px;
+      border-left: 4px solid #ff4757;
+    }
+
+    .login-title {
+      color: white;
+      font-size: 3rem;
+      font-weight: 300;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    @media(max-width: 768px) {
+      .login-container {
+        gap: 2rem;
+        padding: 0 1rem;
+      }
+      
+      .login-box {
+        padding: 3rem 2rem;
+      }
+      
+      .login-box h2 {
+        font-size: 2rem;
+      }
+      
+      .login-title {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-page">
+    <div class="login-container">
+      <h1 class="login-title">Bem-vinda ao nosso cantinho 💕</h1>
+      
+      <img src="./images/solelua.png" alt="Logo" class="login-logo">
+
+      <div class="login-box">
+        <h2><i class="fas fa-heart"></i> Login</h2>
+        <input type="text" id="username" placeholder="Nome de usuário">
+        <input type="password" id="password" placeholder="Senha">
+        <button onclick="login()">
+          <i class="fas fa-sign-in-alt"></i> Entrar
+        </button>
+        <div class="error" id="error" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      const user = document.getElementById("username").value.trim();
+      const pass = document.getElementById("password").value;
+      const errorDiv = document.getElementById("error");
+
+      // Credenciais válidas
+      const usuarios = {
+        "mozin": "29032025",
+        "vida": "29032025"
+      };
+
+      if (usuarios[user] && usuarios[user] === pass) {
+        // Login bem-sucedido
+        localStorage.setItem('loggedUser', user);
+        window.location.href = "inicial.html";
+      } else {
+        // Login falhou
+        errorDiv.textContent = "Usuário ou senha inválidos! 😔";
+        errorDiv.style.display = "block";
+        
+        // Limpa a mensagem de erro após 3 segundos
+        setTimeout(() => {
+          errorDiv.style.display = "none";
+        }, 3000);
+      }
+    }
+
+    // Permite login com Enter
+    document.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        login();
+      }
+    });
+
+    // Verifica se já está logado
+    if (localStorage.getItem('loggedUser')) {
+      window.location.href = "inicial.html";
+    }
+  </script>
+</body>
+</html>
+
