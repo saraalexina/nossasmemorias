@@ -711,7 +711,7 @@
         <!-- fim de sessão memoria 8 -->
 
         <!-- AMOR-->
-        <section id = "pedido" class = "about py-7">
+        <section id = "amor" class = "about py-7">
             <div class = "container">
                 <div class = "about-content grid">
                     <div class = "about-left">
@@ -723,31 +723,29 @@
                             <h2>EU TE AMO MUITO ❤️</h2>
                         </div>
                         <p class = "lead">Obrigada por ter paciência comigo. Eu sei que não sou tão fácil de lidar assim, mas sou muito grata por você estar ao meu lado.</p>
-                        <p class = "lead">Estou ansiosa para criarmos muitas outras memórias juntas. ✨</p>                    
+                        <p class = "lead">Estou ansiosa para criarmos muitas outras memórias juntas. ✨</p>
+                        
                     </div>
                 </div>
-
+                
                 <!-- Sistema de comentários para Amor -->
                 <div class="section-comments" data-section="amor">
-                    <h3><i class="fas fa-heart"></i> Comente sobre o nós</h3>
+                    <h3><i class="fas fa-heart"></i> Deixe sua mensagem de amor</h3>
                     <div class="comment-form">
                         <textarea placeholder="Escreva uma mensagem especial de amor..."></textarea>
                         <button onclick="addComment('amor')">
                             <i class="fas fa-paper-plane"></i> Enviar
                         </button>
                     </div>
-                    
                 </div>
-                
             </div>
-            
         </section>
         <!-- fim AMOR -->
 
         
     </main>
     <!-- end of main content -->
-
+    
     <!-- Sistema de comentários JavaScript -->
     <script>
         // Sistema de comentários por seção
@@ -867,7 +865,7 @@
             }
         });
     </script>
-
+    
     <!-- typewriting js -->
      <script class = "lead">
       function atualizarContagem() {
@@ -925,6 +923,9 @@
         const hoje = new Date().getDay(); // 0 = Domingo, 1 = Segunda...
         const mensagemHoje = mensagens[hoje % mensagens.length];
         mostrarNotificacao(mensagemHoje);
+        
+        // Carregar comentários salvos
+        loadComments();
         };
 
         // Função de logout
@@ -939,3 +940,4 @@
     <script src = "typewriting-master/typewriting.js"></script>
 </body>
 </html>
+
