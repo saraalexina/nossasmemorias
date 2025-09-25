@@ -728,16 +728,22 @@
                     </div>
                 </div>
                 
-                <!-- Sistema de comentários para Amor -->
-                <div class="section-comments" data-section="amor">
-                    <h3><i class="fas fa-heart"></i> Deixe sua mensagem de amor</h3>
-                    <div class="comment-form">
-                        <textarea placeholder="Escreva uma mensagem especial de amor..."></textarea>
-                        <button onclick="addComment('amor')">
-                            <i class="fas fa-paper-plane"></i> Enviar
-                        </button>
-                    </div>
-                </div>
+                <div class="giscus"></div>
+                <script src="https://giscus.app/client.js"
+                        data-repo="saraalexina/nossasmemorias"
+                        data-repo-id="R_kgDOLX72gQ"
+                        data-category="Announcements"
+                        data-category-id="DIC_kwDOLX72gc4Cg-gP"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="bottom"
+                        data-theme="preferred_color_scheme"
+                        data-lang="pt"
+                        crossorigin="anonymous"
+                        async>
+                </script>
             </div>
         </section>
         <!-- fim AMOR -->
@@ -746,124 +752,21 @@
     </main>
     <!-- end of main content -->
     
-    <!-- Sistema de comentários JavaScript -->
-    <script>
-        // Sistema de comentários por seção
-        function addComment(sectionId) {
-            const section = document.querySelector(`[data-section="${sectionId}"]`);
-            const textarea = section.querySelector('textarea');
-            const commentsList = section.querySelector('.comments-list');
-            const noComments = section.querySelector('.no-comments');
-            
-            const commentText = textarea.value.trim();
-            if (!commentText) {
-                alert('Por favor, escreva um comentário antes de enviar! 💕');
-                return;
-            }
-            
-            // Remover mensagem "sem comentários" se existir
-            if (noComments) {
-                noComments.remove();
-            }
-            
-            // Criar elemento do comentário
-            const commentItem = document.createElement('div');
-            commentItem.className = 'comment-item';
-            
-            const now = new Date();
-            const timeString = now.toLocaleString('pt-BR', {
-                day: '2-digit',
-                month: '2-digit',
-                year: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit'
-            });
-            
-            const loggedUser = localStorage.getItem('loggedUser');
-            
-            commentItem.innerHTML = `
-                <div class="comment-header">
-                    <span class="comment-author">${loggedUser} 💕</span>
-                    <span class="comment-time">${timeString}</span>
-                </div>
-                <div class="comment-text">${commentText}</div>
-            `;
-            
-            // Adicionar ao início da lista
-            commentsList.insertBefore(commentItem, commentsList.firstChild);
-            
-            // Limpar textarea
-            textarea.value = '';
-            
-            // Salvar no localStorage
-            saveComment(sectionId, {
-                author: loggedUser,
-                text: commentText,
-                time: now.toISOString()
-            });
-            
-            // Mostrar notificação
-            mostrarNotificacao('Comentário adicionado com sucesso! 💕');
-        }
-        
-        function saveComment(sectionId, comment) {
-            const key = `comments_${sectionId}`;
-            let comments = JSON.parse(localStorage.getItem(key) || '[]');
-            comments.unshift(comment);
-            // Manter apenas os últimos 50 comentários por seção
-            if (comments.length > 50) {
-                comments = comments.slice(0, 50);
-            }
-            localStorage.setItem(key, JSON.stringify(comments));
-        }
-        
-        function loadComments() {
-            const sections = document.querySelectorAll('[data-section]');
-            sections.forEach(section => {
-                const sectionId = section.getAttribute('data-section');
-                const key = `comments_${sectionId}`;
-                const comments = JSON.parse(localStorage.getItem(key) || '[]');
-                const commentsList = section.querySelector('.comments-list');
-                const noComments = section.querySelector('.no-comments');
-                
-                if (comments.length > 0 && noComments) {
-                    noComments.remove();
-                }
-                
-                comments.forEach(comment => {
-                    const commentItem = document.createElement('div');
-                    commentItem.className = 'comment-item';
-                    
-                    const date = new Date(comment.time);
-                    const timeString = date.toLocaleString('pt-BR', {
-                        day: '2-digit',
-                        month: '2-digit',
-                        year: 'numeric',
-                        hour: '2-digit',
-                        minute: '2-digit'
-                    });
-                    
-                    commentItem.innerHTML = `
-                        <div class="comment-header">
-                            <span class="comment-author">${comment.author} 💕</span>
-                            <span class="comment-time">${timeString}</span>
-                        </div>
-                        <div class="comment-text">${comment.text}</div>
-                    `;
-                    
-                    commentsList.appendChild(commentItem);
-                });
-            });
-        }
-        
-        // Permitir envio com Enter (Ctrl+Enter)
-        document.addEventListener('keydown', function(e) {
-            if (e.target.tagName === 'TEXTAREA' && e.ctrlKey && e.key === 'Enter') {
-                const section = e.target.closest('[data-section]');
-                const sectionId = section.getAttribute('data-section');
-                addComment(sectionId);
-            }
-        });
+    <!-- Giscus Comments -->
+    <script src="https://giscus.app/client.js"
+            data-repo="saraalexina/nossasmemorias"
+            data-repo-id="R_kgDOLX72gQ"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOLX72gc4Cg-gP"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="pt"
+            crossorigin="anonymous"
+            async>
     </script>
     
     <!-- typewriting js -->
@@ -940,4 +843,5 @@
     <script src = "typewriting-master/typewriting.js"></script>
 </body>
 </html>
+
 
