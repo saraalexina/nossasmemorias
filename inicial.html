@@ -891,43 +891,6 @@
       setInterval(atualizarContagem, 1000);
       atualizarContagem(); // executa logo ao carregar
 
-        // Lista de mensagens
-        const mensagens = [
-        "Você é a minha felicidade diária! 😍",
-        "Te amo mais do que a medida 🙈❤️",
-        "Que seu dia seja tão lindo quanto o seu sorriso 🌙🌸",
-        "Meu mundo é mais colorido com você 🌈",
-        ];
-
-        // Função para mostrar notificação estilizada
-        function mostrarNotificacao(mensagem) {
-        const notif = document.createElement("div");
-        notif.classList.add("notificacao");
-        notif.innerHTML = mensagem;
-
-        document.body.appendChild(notif);
-
-        // Mostrar com animação
-        setTimeout(() => {
-            notif.classList.add("show");
-        }, 100);
-
-        // Esconder e remover após 5 segundos
-        setTimeout(() => {
-            notif.classList.remove("show");
-            setTimeout(() => {
-            notif.remove();
-            }, 500);
-        }, 5000);
-        }
-
-        // Ao abrir a página, mostra mensagem do dia
-        window.onload = () => {
-        const hoje = new Date().getDay(); // 0 = Domingo, 1 = Segunda...
-        const mensagemHoje = mensagens[hoje % mensagens.length];
-        mostrarNotificacao(mensagemHoje);
-        };
-
         // Função de logout
         function logout() {
             if (confirm('Tem certeza que deseja sair? 😢')) {
