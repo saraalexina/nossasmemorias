@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/solelua.png">
+    <link rel="apple-touch-icon" href="images/solelua.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#fac52b">
+    <title>Our Heaven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    
+    <!-- header -->
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <div style="position: absolute; top: 2rem; right: 2rem;">
+                    <button onclick="logout()" style="background: rgba(250, 197, 43, 0.9); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; cursor: pointer; font-family: 'Poppins', sans-serif; font-weight: 500; transition: all 0.3s ease;">
+                        <i class="fas fa-sign-out-alt"></i> Sair
+                    </button>
+                </div>
+                <h1 class="typing-title">EU AMO<br><span class="typewrite highlighted-word" data-loop="yes" data-speed="100" data-delay="1000" data-words='["VOCÊ!", "SEU SORRISO!", "ESTAR COM VOCÊ!"]'></span></h1>
+                <div id="contador-dias"></div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <main>
+
+        <!-- carta -->
+        <section id = "carta" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "carta">
+                        <div class = "title">
+                            <h2>Carta aberta </h2>
+                        </div>
+                        <p class = "lead">Oi mozin 🥰.</p>
+                        <p class = "lead">Nosso primeiro Dia dos Namorados juntas — 12/06/2025. Não consegui preparar uma MEGA surpresa, 
+                            mas fiz esta página para registrar alguns momentos do nosso relacionamento e guardar nossas memórias. Espero que você goste!</p>
+                        <p class = "lead">Eu não sou a melhor com as palavras, mas quero que saiba de uma coisa: EU TE AMO MUITO e quero aproveitar cada dia ao seu lado.</p>
+                        <p class = "lead">VOCÊ É A MULHER MAIS LINDA DO MUNDO INTEIROOOOOOOOOO ❤️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim da sessão carta-->
+
+
+        <nav class="timeline-nav">
+            <div class="timeline-line"></div>
+            <ul class="timeline-points"></ul>           
+        </nav>
+
+
+
+        <!-- onde tudo começou -->
+        <section id = "inicio" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class="about-left" data-caption="A primeira vez que te vi." >
+                        <video src="images/primeiro dia.mp4" autoplay loop muted playsinline></video>    
+                    </div>
+
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Dia 01/02/2025</h2>
+                        </div>
+                        <p class = "lead"> Quando eu bati o olho em você, lá na Sapucaí, só pensei: “NUUUUUUU, QUE GAROTA LINDA!” 😍.</p>
+                        <p class = "lead">Mas, como sou zero atitudes, não fiz nada… só fiquei segurando sua bolsa quietinha enquanto você sambava.
+                            A única ousadia que tive nesse dia foi perguntar ao Juan: “Qual o nome da sua amiga de rosa?”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim da sessão onde tudo começou-->
+
+        <!-- boomerang 1 -->
+        <section id="insta1" class="py-7">
+                <div class="container">
+                    <div class="insta-content">
+                        <div class="title">
+                            <h2>BOOMS</h2>
+                        </div>
+                        <div class="insta-slider">
+                            <div><video src="images/VID-20250608-WA0184.mp4" autoplay loop muted playsinline ></video></div>
+                            <div><video src="images/VID-20250608-WA0290.mp4" autoplay loop muted playsinline ></video></div>
+                            <div><video src="images/VID-20250608-WA0299.mp4" autoplay loop muted playsinline ></video></div>
+                            <div><video src="images/video-1.mp4" autoplay loop muted playsinline ></video></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--  fim de boomerang 1-->
+
+        <!-- 1 dia juntas -->
+        <section id = "primeirodia"class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Enfim Juntinhas.">
+                        <img src="images/port-14.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Dia 23/02/2025</h2>
+                        </div>
+                        <p class = "lead">Andamos de mãos dadas da Sapucaí até Manguinhos (sem soltar em nenhum momento kkkkk) e, nesse dia, também dormimos juntas pela primeira vez 🥰.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim daa sessão 1 dia juntas -->
+
+        <!-- Memorias 1 -->
+        <section id = "memorias1" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>Nossas memorias 📸🥰</h2>
+                    </div>
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-17.jpeg"></div>
+                        <div><img src = "images/port-2.jpeg"></div>
+                        <div><img src = "images/port-13.jpeg"></div>
+                        <div><img src = "images/port-10.jpeg"></div>
+                        <div><img src = "images/port-12.jpeg"></div>
+                        <div><img src = "images/port-7.jpeg"></div>
+                        <div><img src = "images/sorriso.jpg"></div> 
+                        <div><img src = "images/port-9.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!--  fim da sessão Memorias 1-->
+
+        <!-- 1 encontro -->
+        <section id = "encontro1" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left"data-caption="Nosso primeiro DATEEEE!">
+                        <img src="images/port-2.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Dia 08/03/2025</h2>
+                        </div>
+                        <p class = "lead">Eu estava MUITO ansiosa, com medo de não saber o que 
+                            fazer ou até mesmo o que falar...Mas você conseguiu deixar tudo tão mais leve.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of 1 encontro -->
+
+        <!-- Bommerang 2 -->
+        <section id = "insta2" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/VID-20250608-WA0166.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/VID-20250608-WA0170.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/VID-20250608-WA0172.mp4"autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 2 -->
+
+        <!-- Primeira praia juntas-->
+        <section id = "praia" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Primeira praia juntas.">
+                        <img src="images/primeirapraia.jpg">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>Dia 09/03/2025</h2>
+                        </div>
+                        <p class = "lead">Logo após o nosso primeiro encontro, te chamei para dormir lá em casa para que pudéssemos ir à praia no dia seguinte. 
+                            (Confesso que fiquei com medo de você achar que eu estava te chamando só para transar... mas, na verdade, eu só queria muito passar 
+                            mais tempo ao seu lado. Então, mesmo nervosa, te convidei assim mesmo). Eu estava super ansiosa nesse dia também, afinal, era apenas
+                                a minha segunda saída como um casal kkkkk.</p>
+                                                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  fim Primeira praia juntas -->
+
+        <!-- Memorias 3 -->
+        <section id = "memoria3" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>mais📸🥰</h2>
+                      
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-8.jpeg"></div>
+                        <div><img src = "images/port-15.jpeg"></div>
+                        <div><img src = "images/port-11.jpeg"></div>
+                        <div><img src = "images/port-18.jpeg"></div>
+                        <div><img src = "images/port-23.jpg"></div>
+                        <div><img src = "images/port-22.jpg"></div> 
+                        <div><img src = "images/port-10.jpeg"></div>
+                        <div><img src = "images/port-22.jpg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- end of Memorias 3 -->
+
+        <!-- Feira da Gloria -->
+        <section id = "feira" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Feira da Glória.">
+                        <img src="images/feiradagloria.jpg">
+
+                    </div>
+                    <div class = "about-right">
+                        
+                        <p class = "lead">Primeiro dominguinho na Feira da Glória.</p>                              
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim feira da gloria-->  
+
+        <!-- boomerang 3 -->
+        <section id = "insta3" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/v1.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v5.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v3.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v4.mp4"autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 3 -->
+
+        <!-- SORRISO -->
+        <section id = "sorriso" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="QUE SORRISO LINDOOOOOOO!">
+                        <img src="images/21.jpeg">
+
+                    </div>
+                    <div class = "about-right">
+                        
+                        <p class = "lead">Esta sessão é apenas para falar o QUÃO LINDO É O SEU SORRISO!.</p>                              
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim SORRISO --> 
+
+        <!-- Memorias 4 -->
+        <section id = "memoria4" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>mais📸🥰</h2>
+                       
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-25.jpg"></div>
+                        <div><video src="images/VID-20250608-WA0290.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><img src = "images/port-29.jpg"></div>
+                        <div><img src = "images/port-44.jpg"></div>
+                        <div><img src = "images/port-23.jpg"></div>
+                        <div><img src = "images/port-42.jpg"></div> 
+                        <div><img src = "images/port-24.jpg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.39.02.jpeg"></div>
+                         
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim Memorias 4 -->
+
+        <!--festa -->
+        <section id = "festa" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Primeira festinha com seu Sogro :).">
+                        <img src="images/festa.jpg">
+
+                    </div>
+                    <div class = "about-right">
+                    
+                        <p class = "lead">Primeira vez que fomos na Sarração juntas ✨.</p>                              
+                        <p class = "lead">Você estava lindíssima (como sempre) e me encarava 
+                            de um jeito que eu ficava até fraca. Já estou doida por mais 
+                            festas incríveis como essa ao seu lado (e com meu tio, é claro kkk).</p>                                                           
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <!-- end festa -->
+
+
+        <!-- boomerang 5 -->
+        <section id = "insta5" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/v2.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v6.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v7.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v8.mp4"autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 5 -->
+
+        <!-- pedido -->
+        <section id = "pedido" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="💍 O dia do pedido de namoro.">
+                        <video src="images/WhatsApp Video 2025-06-06 at 15.01.25.mp4" autoplay loop muted playsinline></video>
+
+                    </div>
+                    <div class = "about-right">
+                         <div class = "title">
+                            <h2>Dia 29/03/2025</h2>
+                        </div>
+                        <p class = "lead">Eu não perdi tempo e já lancei logo o laço, só pra não correr o risco de você escapar 🤭.</p>
+                        <p class = "lead">E agora é pra sempre. Se um dia cogitar me largar... dorme que passa!</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim pedido -->
+
+        <!-- Memorias 6 -->
+        <section id = "memorias6" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-16.jpeg"></div>
+                        <div><img src = "images/port-28.jpg"></div>
+                        <div><img src = "images/port-19.jpeg"></div>
+                        <div><img src = "images/port-4.jpeg"></div>
+                        <div><img src = "images/port-21.jpg"></div>
+                        <div><img src = "images/port-30.jpg"></div>
+                         
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 6 -->
+
+        <!-- mega matte -->
+        <section id = "megamatte" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Hmmm, açai com pão de queijo...">
+                        <img src="images/primeiromegamatte.jpeg">
+                    </div>
+                    <div class = "about-right">
+                        <
+                            <p class = "lead">No dia 03/04/2025 te levei ao MegaMatte pela primeira vez.</p>
+                            <p class = "lead">Você jurava que a mistura de açaí com pão de queijo era ruim… mas acabou se viciando kkkkk. E, desde então, isso virou o nosso hobbie de todo dia 29.</p>                       
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- fim mega matte -->
+
+        <!-- boomerang 7 -->
+        <section id = "insta7" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/v9.mp4" autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v10.mp4" autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v11.mp4" autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v12.mp4" autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 7 -->
+
+        <!-- primeiro show -->
+        <section id = "pshow" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Primeiro show juntas.">
+                        <img src="images/primeiroshow.jpg">
+                    </div>
+                    <div class = "about-right">
+                       
+                        <p class = "lead">Nosso primeiro show — dia 20/04/2025: Jorge Aragão 🎶.</p>
+                        <p class = "lead">Você estava linda, como sempre! Apesar dos pesares, foi um dia divertido (até porque você estava comigo). 💕</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim primeiro show -->
+
+        <!-- Memorias 8 -->
+        <section id = "memorias8" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.37.54.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.13.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.14.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.35.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.38.jpeg"></div>
+                        <div><img src = "images/WhatsApp Image 2025-09-22 at 12.38.40.jpeg"></div>
+                        <div><img src = "images/7.jpeg"></div>
+                        <div><img src = "images/14.jpeg"></div>
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 8 -->
+
+        <!-- 1 MES -->
+        <section id = "mes1" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Um mês de namoro💖">
+                        <img src="images/megamatte1mes.jpeg">
+                    </div>
+                    <div class = "about-right">
+                            <div class = "title">
+                                <h2>Dia 29/04/2025</h2>
+                            </div>
+                        
+                        <p class = "lead">Fomos comemorar no MegaMatte, do jeitinho que a gente gosta.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim 1 mes-->
+
+        <!-- boomerang 9 -->
+        <section id = "insta9" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/v13.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v14.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v15.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v16.mp4"autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 9 -->
+
+        <!-- rapando meu cabelo -->
+        <section id = "cortecabelo" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Carecaaa ✂️">
+                        <img src="images/raspandocabelo18-05.jpg">
+                    </div>
+                    <div class = "about-right">
+                        
+                        <p class = "lead">Eu estava me sentindo horrível por ter decidido cortar tudo de última hora, mas você me ajudou a passar a máquina em tudo kkkkk.</p>
+                        <p class = "lead">Me arrependo muito de ter feito isso, mas agora é oficial: vou deixar crescer de novo!</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim rapando meu cabelo -->
+
+        <!-- Memorias 10 -->
+        <section id = "memorias10" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/1.jpeg"></div>
+                        <div><img src = "images/2.jpeg"></div>
+                        <div><img src = "images/3.jpeg"></div>
+                        <div><img src = "images/8.jpeg"></div>
+                        <div><img src = "images/5.jpeg"></div>
+                        <div><img src = "images/6.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 10 -->
+
+        <!-- Tirando suas tranças -->
+        <section id = "ttrancas" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption=" 💕Todo mes era um cabelo diferente">
+                        <img src="images/08-06tirandocabelo.jpg">
+                    </div>
+                    <div class = "about-right">
+                       
+                        <h2 class = "lead"></h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim Tirando suas tranças -->
+
+        <!-- boomerang 10 -->
+        <section id = "insta10" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/v17.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v18.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v19.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v20.mp4"autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 10 -->
+
+        <!-- Sapagode -->
+        <section id = "sapagode" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src="images/sapagode.jpg" data-caption="Sapagode de sapatão.">
+                    </div>
+                    <div class = "about-right">
+                        
+                        <p class = "lead">Quando saímos com o Juan e a Déborah para ir a um pagode de sapatão. Foi super divertido kkk.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim Sapagode -->
+
+        <!-- Memorias 11 -->
+        <section id = "memorias11" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/4.jpeg"></div>
+                        <div><img src = "images/9.jpeg"></div>
+                        <div><img src = "images/10.jpeg"></div>
+                        <div><img src = "images/11.jpeg"></div>
+                        <div><img src = "images/12.jpeg"></div>
+                        <div><img src = "images/13.jpeg"></div> 
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 11 -->
+
+        <!-- aniversario do miguel -->
+        <section id = "aniversario-miguel" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Aniversário do Miguel 🎂">
+                        <img src="images/aniversariodomiguel.jpg">
+                    </div>
+                    <div class = "about-right">
+                        
+                        <p class = "lead">Eu já estava meio ansiosa de ir, porque tinham pessoas que eu não conhecia e afins. Mas foi divertido, apesar da torta salgada não ter sido uma das melhores kkkk.</p>
+                        <p class = "lead">O que eu mais amei foi ver que essa foto foi parar na parede de fotos da sua mãe. TEM UMA FOTO MINHA NA PAREDEEEEE! 🥳</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim aniversario do miguel -->
+
+        <!-- boomerang 11 -->
+        <section id = "insta11" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>BOOMS</h2>
+                    </div>
+                    <div class="insta-slider">
+                        <div><video src="images/v21.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v22.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v26.mp4"autoplay loop muted playsinline ></video></div>
+                        <div><video src="images/v24.mp4"autoplay loop muted playsinline ></video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fim boomerang 7 -->
+
+        <!-- aniversario da minha sogra -->
+        <section id = "anisogra" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="Aniversário da minha sogra. 🎉">
+                        <img src="images/aniversariodaminhasogra.jpg">
+                    </div>
+                    <div class = "about-right">
+        
+                        <p class = "lead">Foi o primeiro aniversário da minha sogrinha em que estive presente.</p>
+                        <p class = "lead">Muita gritaria (como sempre kkk), mas eu amo ver a sua família toda unida. Apesar dos pesares, vocês sempre conseguem se divertir juntos. 💕</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim Aniversário da minha sogra -->
+
+        <!-- Memorias 12 -->
+        <section id = "memorias12" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>📸🥰</h2>
+                     
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/15.jpeg"></div>
+                        <div><img src = "images/19.jpeg"></div>
+                        <div><img src = "images/17.jpeg"></div>
+                        <div><img src = "images/18.jpeg"></div>
+                        <div><img src = "images/16.jpeg"></div>
+                        <div><img src = "images/20.jpeg"></div>
+                        
+                    </div>
+                
+            </div>
+        </section>
+        <!-- fim de sessão memoria 12 -->
+
+        <!-- AMOR-->
+        <section id = "amor" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left" data-caption="EU TE AMOOOOOO!">
+                        <video src="images/NOOOOOS.mp4" autoplay loop muted playsinline></video>
+
+                    </div>
+                    <div class = "about-right">
+                            <div class = "title">
+                                <h2>Mozin</h2>
+                            </div>
+                        <p class = "lead">Obrigada por ter paciência comigo. Eu sei que não sou tão fácil de lidar assim, mas sou muito grata por você estar ao meu lado.</p>
+                        <p class = "lead">Estou ansiosa para criarmos muitas outras memórias juntas. ✨</p>                    
+                    </div>
+                </div>
+
+                <!-- Sistema de comentários para Amor -->
+                <div class="section-comments" data-section="amor">
+                    <h3><i class="fas fa-heart"></i> Deixe sua mensagem de amor</h3>
+                    <div class="comment-form">
+                        <textarea placeholder="Escreva uma mensagem especial de amor..."></textarea>
+                        <button onclick="addComment('amor')">
+                            <i class="fas fa-paper-plane"></i> Enviar
+                        </button>
+                    </div>
+                    <div class="comments-list">
+                        <div class="no-comments">Seja o primeiro a comentar! 💕</div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- fim AMOR -->
+        
+    </main>
+    <!-- end of main content -->
+
+    <script src="typewriting-master/typewriting.js"></script>
+    
+</body>
+</html>

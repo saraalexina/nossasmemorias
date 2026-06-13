@@ -1,0 +1,148 @@
+/* --- TELA DE LOGIN ATUALIZADA (COZY & GLASSMORPHISM) --- */
+.login-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/capa.jpg') center/cover no-repeat fixed;
+    height: 100vh; /* Força a altura exata da tela */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden; /* Elimina qualquer possibilidade de scroll */
+    box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 420px;
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+/* Card estilo Vidro Transparente Aconchegante */
+.login-box {
+    background: rgba(255, 255, 255, 0.22); /* Transparência ideal para o efeito glass */
+    backdrop-filter: blur(16px); /* Desfoque premium do fundo */
+    -webkit-backdrop-filter: blur(16px); /* Compatibilidade com Safari iOS */
+    padding: 3.5rem 2.5rem;
+    border-radius: 24px; /* Cantos mais arredondados dão aspecto mais "soft" */
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25); /* Sombra suave e profunda */
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda fina simulando reflexo no vidro */
+    box-sizing: border-box;
+}
+
+/* Logo centralizado com ajuste de tamanho harmônico para o interior do card */
+.login-logo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fac52b;
+    box-shadow: 0 8px 24px rgba(250, 197, 43, 0.35);
+    margin: 0 auto 1.5rem auto;
+    display: block;
+}
+
+/* Frase de boas-vindas com visual aconchegante */
+.login-title {
+    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 500; /* Peso médio deixa a leitura mais carinhosa */
+    margin: 0 0 2.5rem 0;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Destaca o texto sobre o fundo */
+    text-transform: none; /* Remove o uppercase antigo para um tom mais acolhedor */
+    letter-spacing: 0.5px;
+}
+
+/* Inputs semi-transparentes integrados ao design */
+.login-box input {
+    width: 100%;
+    padding: 1.3rem;
+    margin: 0.8rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.85); /* Mescla suavidade com ótima leitura */
+    color: #222222;
+    box-sizing: border-box;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #fac52b;
+    box-shadow: 0 0 0 3px rgba(250, 197, 43, 0.3);
+    background: #ffffff;
+}
+
+.login-box input::placeholder {
+    color: #666666;
+    font-weight: 400;
+}
+
+/* Botão Gold com a identidade original intacta */
+.login-box button {
+    background: linear-gradient(135deg, #fac52b, #f0b90b);
+    border: none;
+    padding: 1.4rem 3rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-box button:hover {
+    background: linear-gradient(135deg, #f0b90b, #e6a800);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(250, 197, 43, 0.4);
+}
+
+.login-box button:active {
+    transform: translateY(0);
+}
+
+.error {
+    color: #ff4757;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: rgba(255, 71, 87, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #ff4757;
+}
+
+/* --- REGRAS DE ADAPTAÇÃO MOBILE --- */
+@media(max-width: 768px) {
+    .login-container {
+        padding: 0 1.5rem;
+    }
+    
+    .login-box {
+        padding: 2.5rem 1.8rem;
+        border-radius: 20px;
+    }
+    
+    .login-title {
+        font-size: 1.9rem;
+        margin-bottom: 2rem;
+    }
+    
+    .login-logo {
+        width: 95px;
+        height: 95px;
+    }
+}
